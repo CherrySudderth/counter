@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <button id="btn"> Change background!</button>
+    <button id="btn">Change background one</button>
+  
+    <script>
+        let btn = document.getElementById('btn');
+        btn.addEventListener('click', () => {
+            alert('Change the background');
+        });
+
+        let btn1 = document.getElementById('btn1')
+        btn1.addEventListener('click' , () => {
+            document.body.style.backgroundImage = ("url(https://images.unsplash.com/photo-1530406831759-15c5c0cbce8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdyYWZmaXRpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60")
+        })
+
+
+    </script>
+
+
+</body>
+
+</html>
